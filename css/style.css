@@ -187,11 +187,11 @@ p {
 }
 
 #skills {
-    margin-top: 5%;
+    margin-top: 3vh;
 }
 
 #edu {
-    margin-top: 7vh;
+    margin-top: 3vh;
 }
 
 #linkedin:hover {
@@ -222,4 +222,8 @@ p {
     font-weight: 700;
     font-size: 14px !important;
     background-color: #046582 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    top: 50vh !important;
 }
