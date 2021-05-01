@@ -48,6 +48,12 @@ h1 {
     font-feature-settings: "liga" 0;
     font-weight: 700;
 }
+h3 {
+    font-family: Saira,sans-serif;
+    color: white;
+    font-feature-settings: "liga" 0;
+    font-weight: 700;
+}
 
 .social {
     padding-top: 10px;
@@ -113,6 +119,13 @@ p {
         top: 25%;
     }
 }
+
+@media (min-width: 576px) {
+    .mobile-show {
+        display: none;
+    }
+}
+
 #skills {
     margin-top: 10%;
 }
