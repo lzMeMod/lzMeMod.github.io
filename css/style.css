@@ -17,7 +17,7 @@ html, body {
 }
 
 #page3 {
-    background-color: #d5ecc2;
+    background-color: #87a7b3;
 
 }
 
@@ -26,7 +26,7 @@ html, body {
 }
 
 #page1-title {
-    width: 100%;
+    width: 85%;
     position: absolute;
     top: 45%;
     left: auto;
@@ -34,6 +34,8 @@ html, body {
     text-align: center;
     color: white;
     font-family: Saira,sans-serif;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
 }
 
 #social-container {
@@ -118,16 +120,62 @@ p {
     #page1-title {
         top: 25%;
     }
+
+    .work {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+    .line {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
 }
 
 @media (min-width: 576px) {
     .mobile-show {
         display: none;
     }
+    #skills {
+        margin-top: 10% !important;
+    }
+    #edu {
+        margin-top: 10% !important;
+    }
+}
+
+.work {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.work-title {
+    float: left;
+}
+.work-date {
+    float: right;
+}
+.work-des {
+    clear: both;
+}
+
+.line {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    opacity: 1 !important;
+    height: 5px !important;
 }
 
 #skills {
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+#edu {
+    margin-top: 5%;
 }
 
 #linkedin:hover {
@@ -135,12 +183,17 @@ p {
 }
 
 #instagram:hover {
-    color: #FCAF45;
+    color: #833AB4;
 }
 
 #twitter:hover {
     color: #1DA1F2;
 }
+
+#github:hover {
+    color: black;
+}
+
 .progress-bar {
     font-family: Saira, sans-serif;
     font-feature-settings: "liga" 0;
@@ -152,4 +205,5 @@ p {
     font-variant-numeric: normal;
     font-weight: 700;
     font-size: 14px !important;
+    background-color: #046582 !important;
 }
