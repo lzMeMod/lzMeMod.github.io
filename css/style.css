@@ -80,3 +80,9 @@ h1 {
     float:none;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    #page1-title {
+        top: 25%;
+    }
+}
