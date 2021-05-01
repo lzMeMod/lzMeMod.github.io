@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.view {
+    height: 100%;
+    width: 100%;
+}
+.slider-l1 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.silder-page {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    background-color: #98ddca;
+}
+#page2 {
+    background-color: #d5ecc2;
+}
+
+#controller-row {
+    height: 100%;
+}
+
+.controller{
+    height: 50%;
+}
+
+.control-item{
+    margin-top: 200%;
+}
+.col-xs-2 {
+    height: 100%;
+}
+.col-xs-8 {
+    height: 1%;
+}
