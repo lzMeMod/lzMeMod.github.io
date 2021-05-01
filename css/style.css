@@ -1,28 +1,37 @@
 html, body {
-    height: 100%;
     width: 100%;
+    min-height: 100vh;
 }
 
 .swiper-container {
-    height: 100%;
     width: 100%;
+    min-height: 100vh;
 }
 
 #page1 {
     background-color: #98ddca;
+    height: auto;
+    min-height: 100vh;
 }
 #page2 {
     background-color: #ffaaa7;
+    height: auto;
+    min-height: 100vh;
 
 }
 
 #page3 {
     background-color: #87a7b3;
+    height: auto;
+    min-height: 100vh;
 
 }
 
 #page4 {
     background-color: #ffd3b4;
+    height: auto;
+    min-height: 100vh;
+
 }
 
 #page1-title {
