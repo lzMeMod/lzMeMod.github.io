@@ -1,3 +1,47 @@
-const silderLevel1 = new Siema({
-    selector: '.slider-l1'
+const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+});
+
+swiper.on('slideChangeTransitionEnd', changeNavBar);
+
+function changeNavBar() {
+    var current = document.querySelector(".swiper-slide-active").id;
+    document.querySelector(".active").classList.remove("active");
+
+    document.querySelector("#" + current + "-nav").classList.add("active");
+
+}
+
+document.querySelector("#page1-nav").addEventListener("click", () => {
+    swiper.slideTo(0);
+});
+
+document.querySelector("#page2-nav").addEventListener("click", () => {
+    swiper.slideTo(1);
+});
+
+document.querySelector("#page3-nav").addEventListener("click", () => {
+    swiper.slideTo(2);
+});
+
+document.querySelector("#page4-nav").addEventListener("click", () => {
+    swiper.slideTo(3);
 });
