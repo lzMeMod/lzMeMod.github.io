@@ -135,6 +135,12 @@ p {
         margin-left: 10% !important;
         margin-right: 10% !important;
     }
+
+    .work-date {
+        clear: both !important;
+        float: left !important;
+    }
+
     .line {
         width: 80% !important;
         margin-left: 10% !important;
@@ -150,11 +156,12 @@ p {
         margin-top: 10% !important;
     }
     #edu {
-        margin-top: 10% !important;
+        margin-top: 10vh !important;
     }
 }
 
 .work {
+    margin-top: 5vh;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -184,7 +191,7 @@ p {
 }
 
 #edu {
-    margin-top: 5%;
+    margin-top: 7vh;
 }
 
 #linkedin:hover {
