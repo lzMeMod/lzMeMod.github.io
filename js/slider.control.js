@@ -1,9 +1,12 @@
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.con1', {
     // Optional parameters
     direction: 'horizontal',
     loop: false,
 
-    // Navigation arrows
+    keyboard: {
+        enabled: true,
+    },
+    mousewheel: true,// Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
