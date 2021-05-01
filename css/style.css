@@ -12,11 +12,12 @@ html, body {
     background-color: #98ddca;
 }
 #page2 {
-    background-color: #d5ecc2;
+    background-color: #ffaaa7;
+
 }
 
 #page3 {
-    background-color: #ffaaa7;
+    background-color: #d5ecc2;
 
 }
 
@@ -44,6 +45,8 @@ h1 {
     font-family: Saira,sans-serif;
     font-size: 65px !important;
     color: white;
+    font-feature-settings: "liga" 0;
+    font-weight: 700;
 }
 
 .social {
@@ -64,10 +67,6 @@ h1 {
     border-right-width: 0px;
 }
 
-#navbarText {
-    margin-left: 10%;
-}
-
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -81,8 +80,63 @@ h1 {
     cursor: pointer;
 }
 
+.nav-link {
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    color: white !important;
+}
+
+p {
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    color: white !important;
+}
+
 @media (max-width: 768px) {
     #page1-title {
         top: 25%;
     }
+}
+#skills {
+    margin-top: 10%;
+}
+
+#linkedin:hover {
+    color: #2867B2;
+}
+
+#instagram:hover {
+    color: #FCAF45;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+.progress-bar {
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    font-size: 14px !important;
 }
