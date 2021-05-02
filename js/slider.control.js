@@ -39,3 +39,7 @@ document.querySelector("#page3-nav").addEventListener("click", () => {
 document.querySelector("#page4-nav").addEventListener("click", () => {
     swiper.slideTo(3);
 });
+
+if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
