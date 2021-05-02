@@ -63,7 +63,14 @@ h3 {
     font-family: Saira,sans-serif;
     color: white;
     font-feature-settings: "liga" 0;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: Saira,sans-serif;
+    color: white;
+    font-feature-settings: "liga" 0;
+    font-weight: 300;
 }
 
 .social {
